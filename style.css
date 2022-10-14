@@ -1,0 +1,373 @@
+/* POPPINS FONT FAMILY */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  
+}
+body{
+  background-color: #f8f8fa;;
+}
+header{
+  height: 600px;
+  width: 100vw;
+  background-color:  #4617fe;;
+ }
+ nav{
+  
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+ }
+ .nav-item{
+   margin-left: 25px;
+   margin-top: 20px;
+   font-size: 18px;
+   color: #fffFFF;
+ }
+ .nav-item-active{
+  margin-left: 25px;
+  margin-top: 20px;
+  font-size: 18px;
+  background-color: #fff;
+  padding: 5px 20px;
+  border-radius: 10px;
+  color: #876bf7;
+  cursor: pointer;
+ }
+ svg.nav-item{
+  margin-right: 140px;
+  /* background-color: #fff; */
+  width: 20px;
+  height: 20px;
+ }
+ .logo{
+  margin-top: 10px;
+  margin-left: 100px;
+  height: 60px;
+ }
+ .header-text img{
+  margin-left: 100px;
+  margin-top: 90px;
+  height: 8px;
+ }
+ .header-text h2{
+  margin-left: 100px;
+  font-size: 55px;
+  color: #fff;
+ }
+ .header-text p{
+  margin-left: 100px;
+  color: #fff;
+  margin-top: 20px;
+ }
+ .header-image{
+   position: absolute;
+   right: 0;
+  top: 90px;
+   width: 730px;
+   height: 640px;
+ }
+ .companies{
+  margin-left: 100px;
+   
+   display: flex;
+   
+   margin-top: 50px;
+   text-decoration: none;
+ }
+ .company-items{
+  margin-right: 170px;
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+    font-family: "Righteous", sans-serif;
+    font-weight: 570;
+
+ }
+ .api-heading{
+   margin-left: 100px;
+   margin-top: 80px;
+   font-style: bold;
+   font-size: 2rem;
+   font-weight: 1100;
+ 
+    
+ }
+ .cards{
+  margin-left: 100px;
+  display: flex;
+  margin-top: 95px;
+   
+ }
+ /* .card{
+       margin-right: 140px;
+
+ }
+ .card-active{
+  height: 50px;
+  background-color: blue;
+
+ } */
+ .card {
+  padding: 1rem 1.5rem;
+  margin-right: 80px;
+}
+
+.card-head {
+  font-weight: 900;
+  font-size:  25px;
+}
+
+.card-body {
+  font-size: 15px;
+  color: black;
+}
+
+.card-active {
+  background-color: #fff;
+  border-radius: 1rem;
+  padding: 1rem 1.5rem;
+  margin-right: 80px;
+
+}
+.card-head-active{
+  font-weight: 900;
+  font-size:  25px;
+  color: #876bf7;
+}
+.card-logo{
+  height: 60px;
+  margin-bottom: 20px;
+   
+}
+ 
+.blog-heading{
+  margin-left: 100px;
+  margin-top: 90px;
+  font-size: 20px;
+  font-weight: 1100;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.blog-heading::after{
+  content: "See All Articles";
+  color: #a48efa;
+  font-size: 24px;
+  font-weight: 900;
+  margin-right: 300px;
+}
+.blog-cards{
+  margin-left: 100px;
+  margin-top: 50px;
+  display: flex;
+}
+.blog-card{
+  display: flex;
+  border-top-left-radius: 70px;
+  background-color: #fff;
+  margin-right: 140px;
+ 
+
+}
+ 
+.blog-content{
+   
+  width: 55%;
+  margin-top: 40px;
+  position: relative;
+  left: 120px;
+   
+    
+}
+.blog-content > h6{
+  color:  #9f87fd;
+  font-size: 16px;
+}
+.blog-content > h3{
+  font-size: 20px;
+  margin-top: 10px;
+ }
+ .blog-content > small{
+  margin-top: 10px;
+  font-size: 16px;
+   
+}
+.blog-bottom{
+  position: relative;
+  top: 270px;
+  right: 130px;
+  
+}
+.blog-author{
+  position: relative;
+   top: 130px;
+   right: 50px;
+  
+   white-space: nowrap;
+} 
+.faq-section {
+  margin-top: 5rem;
+  padding-left: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 320px;
+  background-color: #ccd5fc;
+}
+
+.faq-content h2 {
+  font-size: 30px
+}
+
+.faq-content h4:nth-child(2) {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #757575;
+  font-weight: 300;
+}
+
+.faq-content h4:nth-child(3) {
+  font-size: 1.2rem;
+  color: #000;
+  font-weight: 800;
+  margin-top: 40px;
+
+}
+
+.faq-content button {
+  margin-top: 14px;
+  background-color: #4416fe;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: .6rem 1.1rem;
+}
+.download-section{
+  height: 300px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.download-content h1{
+  font-size: 45px;
+  font-weight: 1100;
+}
+.download-content span{
+  font-weight: 400;
+}
+/* .download-email{
+ 
+   
+  width: 600px;
+  border-radius: 60px;
+} */
+ form{
+  padding: 0px 20px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 90px;
+  background-color: #e9edff;
+   
+} 
+
+ form input{
+  color: #000000;
+  background-color: #e9edff;
+  width: 220px;
+  border: none;
+  font-size: 15px;
+  font-weight: bolder;
+  padding-right: 120px;
+}
+ 
+.download-email > form  button{
+  padding: 18px 34px;
+  font-size: 15px;
+  color: #fff;
+  background-color: #5a31fc;
+  width: 180px;
+  border: none;
+  border-radius: 30px;
+  margin-left: 240px;
+}  
+.footer-section{
+  height: 350px;
+  background-color: #5a31fc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-left{
+  margin-left: 120px;
+}
+.footer-left img{
+    height: 60px;
+}
+.footer-left .list{
+  width: 30vw;
+  margin-top: 40px;
+  /* background-color: yellow; */
+  color: #fffFFF;
+   display: flex;
+   list-style: none;
+   justify-content: space-between;
+}
+.footer-left > ul > .list-items:nth-child(3)::before{
+  content: "|";
+  position: relative;
+  right: 20px;
+  color: #fff;
+}
+.footer-left>ul>.list-items:nth-child(4)::before{
+  content: "|";
+  position: relative;
+  right: 20px;
+  color: #fff;
+}
+  
+.footer-left>ul>.list-items:nth-child(5)::before{
+  content: "|";
+  position: relative;
+  right: 20px;
+  color: #fff;
+}
+.footer-right{
+  margin-right: 70px;
+}
+.footer-logos{
+  margin-right: 20px;
+  margin-bottom: 20px;
+  height: 50px;
+}
+ .logos-list{
+  display: flex;
+  list-style: none;
+   /* background-color: yellow;  */
+ margin-top: 10px;
+   
+} 
+.list-items{
+  margin-right: 20px;
+  color: #fff;
+}
+.logos-list>.list-items:nth-child(2)::before{
+  content: "|";
+  position: relative;
+  right: 10px;
+  color: #fff;
+
+}
+.logos-list>.list-items:nth-child(3)::before{
+  content: "|";
+  position: relative;
+  right: 10px;
+  color: #fff;
+  
+}
