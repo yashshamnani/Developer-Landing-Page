@@ -8,7 +8,7 @@
 
  
 
-## LiveLink -- [Link](https://web-design-homepage-yash-shamnani.netlify.app/)
+## LiveLink -- [Link](https://639d9aea9c18df7ca3c83c95--yashshamnani-developer-landing-page.netlify.app/)
 
 
 
