@@ -1,4 +1,4 @@
-/* POPPINS FONT FAMILY */
+ 
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
 
@@ -41,7 +41,7 @@ header{
  }
  svg.nav-item{
   margin-right: 140px;
-  /* background-color: #fff; */
+  
   width: 20px;
   height: 20px;
  }
@@ -104,15 +104,7 @@ header{
   margin-top: 95px;
    
  }
- /* .card{
-       margin-right: 140px;
-
- }
- .card-active{
-  height: 50px;
-  background-color: blue;
-
- } */
+  
  .card {
   padding: 1rem 1.5rem;
   margin-right: 80px;
@@ -262,12 +254,7 @@ header{
 .download-content span{
   font-weight: 400;
 }
-/* .download-email{
  
-   
-  width: 600px;
-  border-radius: 60px;
-} */
  form{
   padding: 0px 20px;
   display: flex;
@@ -313,7 +300,7 @@ header{
 .footer-left .list{
   width: 30vw;
   margin-top: 40px;
-  /* background-color: yellow; */
+ 
   color: #fffFFF;
    display: flex;
    list-style: none;
@@ -349,7 +336,7 @@ header{
  .logos-list{
   display: flex;
   list-style: none;
-   /* background-color: yellow;  */
+ 
  margin-top: 10px;
    
 } 
@@ -370,4 +357,185 @@ header{
   right: 10px;
   color: #fff;
   
+}
+@media screen and (max-width: 1550px) {
+  .header-image{
+    display: none;
+  }
+}
+
+@media screen and (max-width:1100px) {
+  .blog-cards {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  header div .header-image {
+    display: none;
+  }
+
+  .blog-card {
+    margin-top: 2rem;
+  }
+
+  .cards {
+    flex-wrap: wrap;
+  }
+
+  .faq-image {
+    display: none;
+  }
+ 
+  .download-content h1{
+    font-size: 25px;
+    font-weight: 800;
+    margin-left: 10px;
+  }
+  .download-content span{
+    font-weight: 400;
+  }
+   
+   form{
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 90px;
+    background-color: #e9edff;
+     
+  } 
+  
+    
+
+}
+@media screen and (max-width: 940px) {
+  
+   nav{
+    
+    display: flex;
+    justify-content: end;
+     
+   }
+   .nav-item{
+     margin-left: 25px;
+     margin-top: 50px;
+     font-size: 12px;
+     color: #fffFFF;
+   }
+   .nav-item-active{
+     
+    margin-top: 50px;
+    font-size: 12px;
+     
+   }
+   svg.nav-item{
+    margin-right: 140px;
+    
+    width: 20px;
+    height: 20px;
+   }
+   .logo{
+    margin-top: 0px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    height: 40px;
+    position: relative;
+    bottom: 30px;
+   }
+   .header-text img{
+    
+    height: 4px;
+
+   }
+   .header-text h2{
+     font-size: 35px;
+    
+   }
+   .header-text p{
+     font-size: 16px;
+   }
+   .download-section{
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .download-content h1{
+    font-size: 25px;
+    font-weight: 1100;
+  }
+  .download-content span{
+    font-weight: 400;
+    
+  }
+   
+   form{
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 90px;
+    background-color: #e9edff;
+     
+  } 
+  
+   form input{
+    color: #000000;
+    background-color: #e9edff;
+    width: 100px;
+    border: none;
+    font-size: 10px;
+    font-weight: bolder;
+    padding-right: 40px;
+  }
+   
+  .download-email > form  button{
+    padding: 14px 24px;
+    font-size: 15px;
+    color: #fff;
+    background-color: #5a31fc;
+    width: 160px;
+    border: none;
+    border-radius: 30px;
+    margin-left: 240px;
+  }  
+    .blog-heading{
+ 
+    font-size: 12px;
+  }
+  
+  .blog-heading::after{
+   
+    font-size: 16px;
+     
+  }
+ 
+  
+  .blog-card{
+    display: flex;
+    border-top-left-radius: 70px;
+    background-color: #fff;
+    margin-right: 140px;
+    margin-bottom: 150px;
+ 
+  
+  }
+  
+   
+ 
+}
+@media screen and (max-width:890px) {
+  .blog-card{
+    display: flex;
+    border-top-left-radius: 70px;
+    background-color: #fff;
+    margin-right: 140px;
+    width: 100vw;
+   
+  
+  }
+  .blog-bottom{
+    display: none;
+  }
+  .blog-author{
+    display: none;
+  }
 }
